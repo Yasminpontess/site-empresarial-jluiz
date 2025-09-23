@@ -66,7 +66,6 @@ const Home = () => {
       </div>
 
       {/* 🔥 Nova seção: Contadores + Diferenciais */}
-      <Diferenciais />
 
       {/* Seções adicionais */}
 
@@ -76,6 +75,7 @@ const Home = () => {
         heading="AQUI, SEU PROJETO É NOSSO COMPROMISSO."
       >
         <div className="w-full bg-white py-16 px-6 sm:px-12">
+          <Diferenciais />
           <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
             {/* 1 - Experiência */}
             <div className="flex items-start gap-4">
