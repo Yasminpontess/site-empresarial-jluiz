@@ -55,6 +55,7 @@ const Home = () => {
   >
     {/* Overlay escuro */}
     <div className="absolute inset-0 bg-black/60 z-10"></div>
+    
 
     {/* Botões laterais */}
     <div className="absolute right-4 top-1/3 flex flex-col space-y-4 z-20">
@@ -77,7 +78,11 @@ const Home = () => {
     </div>
 
     {/* Gradiente branco inferior */}
-    <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-white to-transparent z-30"></div>
+   <div
+  className="absolute bottom-[-80px] left-0 w-full h-[300px]
+             bg-gradient-to-t from-white to-transparent z-30"
+></div>
+
 
     {/* Conteúdo central */}
     
@@ -156,7 +161,7 @@ const Home = () => {
     </div>
   </section>
 
-  <div className="w-screen flex flex-col items-center bg-whites mt-[-50px]">
+  <div className="w-screen flex flex-col items-center bg-whites mt-[-10px]">
         <div className="w-full flex justify-center items-center mt-24 px-4 mb-12mt-24 mb-24 relative z-10">
           <div className="bg-neutral-600/80 backdrop-blur-md p-10 rounded-xl z-5 max-w-2xl w-full border border-white/10 shadow-lg text-white text-center">
             <p className="text-base sm:text-xl font-bold text-white uppercase">
@@ -587,7 +592,7 @@ const Home = () => {
   >
      
     {/* Título e Descrição */}
-    <div id="Contato" className="text-center mb-16 mt-30">
+    <div id="Servicos"className="text-center mb-16 mt-30">
       <h2 className="text-5xl font-extrabold text-gray-300 mb-4 uppercase tracking-wide">
         Pronto para transformar seu espaço? 
       </h2>
