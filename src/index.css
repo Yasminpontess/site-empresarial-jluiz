@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+
+/* ===== marquee / scroll-x fallback (colar no src/index.css) ===== */
+@keyframes scroll-x {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* classe que você já usa no JSX: animate-scroll-x */
+.animate-scroll-x {
+  animation: scroll-x 40s linear infinite;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* garantir que o inner seja inline-flex e não quebre */
+.marquee-inner {
+  display: inline-flex;
+  white-space: nowrap;
+  align-items: center;
+  gap: 1.5rem;
+}

@@ -1,7 +1,7 @@
 .shiny-text {
   position: relative;
   display: inline-block;
-  background: linear-gradient(90deg, currentColor, #ffffff, currentColor);
+  background: linear-gradient(60deg, currentColor, #202070, currentColor);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
