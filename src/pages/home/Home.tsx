@@ -91,7 +91,7 @@ const Home = () => {
         {/* Texto principal — SUBIU */}
 {/* SOMENTE MOBILE */}
 <h1
-  className="block sm:hidden absolute text-center font-bold text-blue-950  leading-tight 
+  className="block sm:hidden absolute text-center font-bold text-white  leading-tight 
   text-5xl"
   style={{
     top: "5%",     // Ajuste a altura até ficar certinho
@@ -198,11 +198,19 @@ const Home = () => {
   </svg>
 
   {/* Efeito Shine */}
-  <span
-    className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent
-               -translate-x-full group-hover:translate-x-full 
-               transition-transform duration-700 ease-in-out"
-  />
+<span
+  className="
+    absolute 
+    left-0 right-0 
+    bottom-0 
+    h-[1600px] sm:h-[2000px] md:h-[2400px] lg:h-[280px]
+    bg-gradient-to-t from-white via-white/80 to-transparent
+    pointer-events-none
+    z-30
+  "
+/>
+
+
 </button>
           </div>
         </div>
